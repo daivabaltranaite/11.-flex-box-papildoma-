@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(228, 239, 247);
+    font-family: 'Karla', sans-serif;
+}
+
+main {
+    width: 677px;
+    margin: 10vh auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    overflow: hidden;
+    -webkit-box-shadow: 8px 8px 11px 1px rgba(215, 219, 247, 0.88);
+    box-shadow: 8px 8px 11px 1px rgba(222, 230, 236, 0.88);
+}
+
+.korteliu-blokas {
+    display: flex;
+}
+
+.kortele-pailga {
+    padding: 25px 60px 40px 40px;
+}
+
+.maza-kortele1 {
+    box-sizing: border-box;
+    background: rgb(0, 184, 180);
+    flex-basis: 50%;
+    padding: 25px 60px 40px 40px;
+}
+
+.maza-kortele2 {
+    box-sizing: border-box;
+    background: rgb(0, 195, 192);
+    flex-basis: 50%;
+    padding: 25px 100px 40px 40px;
+}
+
+.pavadinimas {
+    color: rgb(0, 167, 164);
+}
+
+.antraste {
+    color: rgb(180, 215, 95);
+}
+
+.tekstas {
+    color: rgb(170, 178, 193);
+    line-height: 1.5;
+}
+
+.pavadinimas-mazas {
+    color: rgb(248, 255, 255);
+}
+
+.tekstas-1mazos-korteles {
+    color: rgb(248, 255, 255);
+    font-size: 16px;
+}
+
+.tekstas-2mazos-korteles {
+    color: rgba(248, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.kaina {
+    font-size: 24px;
+    color: rgb(248, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.sumazintas-tekstas {
+    color: rgba(248, 255, 255, 0.6);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.mygtukas {
+    background: rgb(174, 232, 38);
+    border-radius: 6px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: rgb(248, 255, 255);
+    margin-top: 10px;
+    -webkit-box-shadow: 2px 6px 11px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 6px 11px -2px rgba(0, 0, 0, 0.2);
+}
